@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+/* -----------------------------------nav-------------------------------------- */
+
+.ma-nav {
+    font-family: Roboto;
+    background-color: rgba(255, 255, 255, 0.90) !important;
+    padding: 0px 62px 0px 62px;
+    height: 100px;
+    left: 0;
+    right: 0;
+}
+
+.navbar-toggler-icon {
+    background-color: #274C5B !important;
+}
+
+.nav-link {
+    color: #274C5B;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.form-control {
+    border-radius: 36px;
+    width: 200px;
+    height: 40px;
+}
+
+.ma-btn {
+    border-radius: 50%;
+    background-color: #7EB693;
+}
+
+.btn2 {
+    border-radius: 50%;
+    background-color: #274C5B;
+}
+
+.ma-form-control2 {
+    border-radius: 36px;
+    width: 80px;
+    height: 40px;
+}
+/* -----------------------------------hero-team & service-------------------------------------- */
+
+
+  .hero{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 100px) ;
+    margin-top: 84px;
+    }
+    .hero-team {
+     background-image: url(../images/team-bg-hero.png);
+    }
+    .hero-services{
+     background-image: url(../images/service-bg-hero.png);
+    }
+     .hero h1{
+        color: #274C5B;
+    font-family: Roboto;
+    font-size: 70px;
+       font-weight: 900;
+     }
+     /* -----------------------------------NewsLatteer-------------------------------------- */
+
+     
+
+/* -----------------------------------section11-------------------------------------- */
+    .em-btn-s11{
+        width: 180px;
+        height: 70px;
+        border-radius: 10px;
+        border: 2px solid #335B6B;
+        background: #F9F8F8;
+    }
+    .em-s11-span{
+        color: #274C5B;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+/* -----------------------------------section12-------------------------------------- */
+.em-s12-text{ 
+    color: #274C5B;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+}
+.w-55{
+    width:55%;
+}
+
+.em-bg-s12{
+    background-image:url(../images/S12-bg-serv.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.w-107{
+    width: 107px;
+}
+.p-100{
+    padding: 100px 0;
+}
+/* --------------------------------------services--------------------------------------- */
+        .max-w{
+            max-width: max-content;
+        }
+        .mt-70{
+            margin-top: 70px;
+        }
+
+        .em-title-serv{
+        color: #274C5B;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+
+        }
+        .em-text-serv{
+            color: #525C60;
+            font-family: Open Sans;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 165.4%;
+            
+        }
+
+      /* -----------------------------------section13-------------------------------------- */
+.em-section{
+    padding: 7.3206vh 0px;
+}
+.em-p-sec{
+    color: #7EB693;
+
+    font-family: Yellowtail;
+    font-size: 25px;
+    font-weight: 400;
+  }
+.w-65{
+    width: 65%;
+}
+.em-h1-sec{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 900;  
+}
+.sp1-section13{
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 165.4%; /* 26.464px */
+}
+.S13-h5{
+    color: #274C5B;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    }
+.S13-p{
+    color: #7EB693;
+    font-family: Yellowtail;
+    font-size: 22px;
+    font-weight: 400;
+    }
+.gap-17{
+     gap: 17px;
+    }
+.card{
+    z-index: -1;
+ }
+.S13-bg-color{
+    background-color: #F9F8F8;
+    }
+
+
+
+/*  -------------------------------media-------------------------------------- */
+@media screen and (max-width:992px) {
+    .navbar-toggler{display: none;}
+    .hero h1{
+        font-size: 40px;
+    }
+    .card{
+        max-width: 18rem;
+    }
+    .col{
+        display: flex;
+   justify-content: center;
+
+    }
+    .em-text{
+        text-align: center;
+    }
+
+
+ 
+    .h313{
+        height: 313px;
+    }
+    .em-h1-sec{
+        font-size: 20px;
+    }
+}
